@@ -53,6 +53,14 @@ ai201-project6-cinelog-starter/
 | POST | `/collection/<user_id>/add` | Add a film to the collection |
 | DELETE | `/collection/<user_id>/remove` | Remove a film from the collection |
 
+### Watchlist
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/watchlist/<user_id>` | Get a user's watchlist (newest first) |
+| POST | `/watchlist/<user_id>/add` | Add a film to the watchlist |
+| DELETE | `/watchlist/<user_id>/remove` | Remove a film from the watchlist |
+
 ---
 
 ## Data Models
